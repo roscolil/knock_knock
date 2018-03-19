@@ -1,24 +1,8 @@
-# README
+# Knock Knock
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* '/api/Fibonacci?n= ' - Returns the nth number in the fibonacci sequence.
+* '/api/ReverseWords?sentence= ' - Reverses the letters of each word in a sentence.
+* '/api/Token' - Displays my token
+* '/api/TriangleType?a= &b= &c= ' - Returns the type of triangle given the lengths of its sides.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+RoR app deployed to heroku
