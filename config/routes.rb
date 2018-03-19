@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'welcome#index'
+  root '/', to: 'welcome#index'
 
   get '/api/Fibonacci', to: 'fibonacci#api_index'
 
