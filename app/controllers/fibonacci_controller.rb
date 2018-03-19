@@ -6,12 +6,15 @@ class FibonacciController < ApplicationController
     if value <= 1
       res = value
     else
-      (1..value).each do
-        
+      x = 0
+      res = 1
+      (2..value).each do
+        z = (x + res)
+        x = res
+        res = z
       end
     end
 
     render json: res
   end
-
 end
