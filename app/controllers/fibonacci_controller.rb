@@ -1,9 +1,15 @@
 class FibonacciController < ApplicationController
 
   def api_index
-    n = params[:n]
+    num = params[:n].to_i
 
-    render json: n
+    if num < 2
+      result = 1
+    else
+      result = (num - 2) + (num - 1)
+    end
+
+    render json: result
   end
 
 end
