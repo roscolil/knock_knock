@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  root 'welcome#index'
+
   get '/api/Fibonacci', to: 'fibonacci#api_index'
 
   get '/api/ReverseWords', to: 'reverse_words#api_index'
