@@ -5,5 +5,4 @@ class TokensController < ApplicationController
 
     render json: res
   end
-
 end

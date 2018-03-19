@@ -6,11 +6,11 @@ class TriangleTypesController < ApplicationController
     c = params[:c]
 
     if ((a == b) && (a == c) && (b == c))
-      res = 'equilateral'
+      res = 'Equilateral'
     elsif ((a == b) || (a == c) || (b == c))
-      res = 'isosceles'
+      res = 'Isosceles'
     else
-      res = 'scalene'
+      res = 'Scalene'
     end
     render json: res
   end
