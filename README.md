@@ -5,4 +5,4 @@
 * '/api/Token' - Displays my token
 * '/api/TriangleType?a= &b= &c= ' - Returns the type of triangle given the lengths of its sides.
 
-RoR app deployed to heroku
+RoR api app deployed to heroku
